@@ -49,6 +49,12 @@ header {
     letter-spacing: 2px;
 }
 
+.logo .logo-img {
+    max-width: 150px; /* Ajusta el tamaño según la imagen */
+    height: auto;
+    display: block;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -239,6 +245,12 @@ footer {
     margin-bottom: 1.5rem;
 }
 
+.footer-logo .logo-img {
+    max-width: 150px; /* Ajusta el tamaño según la imagen */
+    height: auto;
+    display: block;
+}
+
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -276,5 +288,10 @@ footer {
     .social-links {
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    .logo .logo-img,
+    .footer-logo .logo-img {
+        max-width: 120px; /* Ajuste responsivo para pantallas pequeñas */
     }
 }
